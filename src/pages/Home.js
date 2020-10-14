@@ -64,7 +64,6 @@ export default function Home() {
 
   return (
     <Grid container spacing={5} className={classes.root}>
-
 {/* Begin main/profile pic card */}
       <Grid item xs={12}>
         <Card>
@@ -110,13 +109,21 @@ export default function Home() {
         <Card className={classes.root}>
             <CardContent>
               <Typography variant="body2" gutterBottom>
-              Before joining the world of <code>tech</code>, I studied <strong>philosophy, psychology, economics, math,</strong> and <strong>international relations</strong>. I worked in <strong>finance, law</strong>, and <strong>education</strong>. 
-              <br></br>
-              <br></br>
-              I learned to <code>code</code> in 4th grade, making web pages on Neopets with <strong>HTML</strong>. Fast forward a few years to studying for the LSAT, when I realized that I only really enjoyed the logic puzzles section. I was reminded of everything I love about <strong>computer science</strong> - Boolean algebra, truth tables, and objectivity. So I moved to <strong>San Francisco</strong>, completed Flatiron School's Full Stack Web Development <Link className={classes.links} underline="none" href="https://flatironschool.com/career-courses/coding-bootcamp/san-francisco">immersive</Link>, and have been loving every day of the developer life since. As they say, <code>window.history.pushState("the rest", "is")</code>
-              <br></br>
-              <br></br>
-              Other passions: dogs, piano, kickboxing, travel, weird food, and <Link className={classes.links} underline="none" href="https://www.instagram.com/p/B-AJtycgYKU/?igshid=12f3s8qalj71s">memes</Link>.
+              <h1>Journeying with Epilepsy for brains living with epilepsy</h1>
+Living with <strong>epilepsy</strong> taught me the significance of taking care of the brain with or without epilepsy. 
+<br/>
+After many years of working as a general nursing practitioner, I felt passion for training as a nephrology nurse which from 2006 while living with Epilepsy.
+<br/>
+In the process of practising as nephrology/dialysis nurse, self-experience of living with epilepsy and compounded with observing patients convulsing while on dialysis and having suffered several convulsions during my practise as a nephrology nurse, for self-care and care of other persons living with epilepsy, I was triggered to switch to learning more about epilepsy and the brain.
+This led to currying studies on: 
+<br/>
+<ol>
+  <li>EEG in diagnosis and management of Epilepsy</li>
+  <li>Psychiatric aspect of Epilepsy</li>
+  <li>Sleep disorders associated with Epilepsy</li>
+  <li>Counselling Psychology</li>
+</ol>
+
                 </Typography>
             </CardContent>
         </Card>

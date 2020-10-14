@@ -1,5 +1,6 @@
 body {
   background: linear-gradient(#cbe4f4, #f4d2c6, #93acc9, #f0c9c9, #bbd1df );
+  background-image: url("/background.png");
 }
 
 code {
@@ -15,4 +16,7 @@ strong {
 
 a:hover {
   color: #6b4c41;
+}
+.background {
+  background-image: url("/background.png");
 }
